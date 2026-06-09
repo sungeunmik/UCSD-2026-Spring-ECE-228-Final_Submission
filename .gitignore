@@ -1,0 +1,13 @@
+# Any generated image files (png or npz)
+*.png
+*.npz
+
+# Any pycache files
+**/__pycache__/
+
+# Any model weight files or checkpoints
+*.pt
+*.pth
+*.ckpt
+
+runs/
