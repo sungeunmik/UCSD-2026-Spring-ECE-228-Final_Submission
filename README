@@ -14,5 +14,5 @@ python train/train_bouncing_ball_node.py \
   --model event_node
 
 
-Redering compare across models
+Redering compare across models (To compare across models at single image)
 python train/render_compare_models.py   --checkpoints     runs/bouncing_ball_mlp/mlp_checkpoint.pt   runs/bouncing_ball_rnn/rnn_checkpoint.pt   runs/bouncing_ball_node_bak/node_checkpoint.pt runs/bouncing_ball_event_node/event_node_checkpoint.pt   --labels MLP RNN NODE EVENT_NODE   --save-path runs/compare_models.png   --repo-root .   --examples "8.0,0.0;3.0,2.0;5.0,-3.0"
